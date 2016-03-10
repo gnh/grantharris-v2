@@ -1,0 +1,18 @@
+// utility styles
+
+.nav-on {
+	pointer-events: auto !important;
+	opacity: 1 !important;
+}
+
+#other {
+	@include transition(0.5s);
+}
+
+.hide {
+	opacity: .11 !important;
+}
+
+
+
+

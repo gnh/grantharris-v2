@@ -1,0 +1,51 @@
+// Media query mixin
+
+@mixin mq($size) {
+  @if $size == x-large {
+    @media (min-width: $x-large) { @content ; }
+  }
+
+  @if $size == large {
+    @media (min-width: $large) { @content ; }
+  }
+
+  @if $size == medium {
+    @media (min-width: $medium) { @content ; }
+  }
+
+  @if $size == medium-down {
+    @media (max-width: $medium - 1) { @content ; }
+  }
+
+  @if $size == small {
+    @media (min-width: $small) { @content ; }
+  }
+
+  @if $size == small-down {
+    @media (max-width: $small - 1) { @content ; }
+  }
+}
+
+
+// Padding / Margin
+
+@mixin pm-clear {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin vertical-padding($padding) {
+  padding-top: $padding;
+  padding-bottom: $padding;
+}
+
+
+// Misc
+
+@mixin transition($transition) {
+  -webkit-transition: all $transition ease-in-out;
+  -moz-transition: all $transition ease-in-out;
+  -ms-transition: all $transition ease-in-out;
+  -o-transition: all $transition ease-in-out;
+  transition: all $transition ease-in-out;
+}

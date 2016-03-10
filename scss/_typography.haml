@@ -1,0 +1,42 @@
+// typo
+
+p, a, h1, h2, h3, h4, h5 {
+	@include pm-clear;
+}
+
+p {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: $copy;
+}
+
+a {
+	font-size: 1.8rem;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $white;
+}
+
+h1 {
+	@include transition(.15s);
+	font-size: 1.8rem;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: $white;
+
+	span {
+		opacity: 0.5;
+		font-weight: 400;
+	}
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+	color: $white;
+	text-align: center;
+}

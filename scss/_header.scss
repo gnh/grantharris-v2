@@ -1,0 +1,64 @@
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 60vh;
+	background-color: rgba(44,46,54,0.9);
+
+	.kanye {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#burger {
+		position: relative;
+		width: 1.8rem;
+		height: 1.8rem;
+		cursor: pointer;
+
+		.top, .middle, .bottom {
+			@include transition(.35s);
+			transform-origin: left;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 2.3rem;
+			height: 2px;
+			background-color: $white;
+		}
+
+		.middle {
+			top: 8px;
+		}
+
+		.bottom {
+			top: 16px;
+		}
+	}
+
+	#social {
+		@include pm-clear;
+		position: absolute;
+		top: 5rem;
+		
+		li {
+			list-style: none;
+			float: left;
+			margin-right: 3rem;
+
+			a {
+				@include transition(0.15s);
+				font-size: 1rem;
+				color: rgba(255,255,255,0.3);
+
+				&:hover {
+					background: rgba(116,167,255,0.2);
+				}
+			}
+		}
+	}
+}
+

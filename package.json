@@ -1,0 +1,23 @@
+{
+  "name": "karmapoints-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vol7/karmapoints-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vol7/karmapoints-assets/issues"
+  },
+  "homepage": "https://github.com/vol7/karmapoints-assets",
+  "devDependencies": {
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.6"
+  }
+}

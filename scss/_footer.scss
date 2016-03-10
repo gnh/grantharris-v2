@@ -1,0 +1,4 @@
+footer {
+	@include vertical-padding(15em);
+	background-color: $shade-dark;
+}
