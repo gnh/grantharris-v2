@@ -5,7 +5,7 @@
 
 Make sure you have npm, Bower and Gulp installed
 
-##Starting Middleman
+##Starting Gulp
 
 ```
 $ gulp
