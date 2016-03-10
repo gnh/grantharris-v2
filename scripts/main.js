@@ -36,6 +36,7 @@ $(window).scroll(function(){
 
   // negative zero
   if (scrollTop < 0) scrollTop = 0;
+  if (scrollTop < 0) slideProgress = 0;
 
   if(scrollTop >= 1){
     $('header').css('height', slideProgress);

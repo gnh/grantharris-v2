@@ -212,7 +212,8 @@ hr {
   margin: 0 auto; }
 
 #about {
-  padding-top: 70vh; }
+  padding-top: 70vh;
+  padding-bottom: 10vh; }
 
 .content {
   font-family: "kepler-std-semicondensed";
@@ -224,6 +225,8 @@ hr {
   line-height: 3.8rem;
   text-align: center;
   margin-bottom: 5rem; }
+  .content:last-of-type {
+    margin-bottom: 0; }
   .content a {
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
