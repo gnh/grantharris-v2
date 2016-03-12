@@ -31,12 +31,18 @@ $(window).scroll(function(){
 
   var desiredWindowHeight = windowHeight * .6;  //since we use a height of 60vh, we take 60% of windowHeight for proper "push" animation
   var slideProgress = desiredWindowHeight - scrollTop;
+
   var moveProgress = 1 - (windowHeight * (scrollTop / windowHeight));
   var fadeProgress = 1 - (scrollTop / (0.5 * windowHeight));
 
   // negative zero
-  if (scrollTop < 0) scrollTop = 0;
-  if (scrollTop < 0) slideProgress = 0;
+  if (scrollTop < 0){ 
+    scrollTop = 0;
+  }
+
+  if (scrollTop <= 0){
+    $('header').css('height', '60vh');
+  }
 
   if(scrollTop >= 1){
     $('header').css('height', slideProgress);
