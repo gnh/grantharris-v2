@@ -39,22 +39,26 @@ $(document).ready(function(){
     menuLink.toggleClass('menu__link--overlay');
     identity.toggleClass('identity--overlay');
     navigation.toggleClass('navigation--overlay');
+    navigationLinkOne.toggleClass('navigation__link--overlay');
+    navigationLinkTwo.toggleClass('navigation__link--overlay');
+    navigationLinkThree.toggleClass('navigation__link--overlay');
+    navigationLinkFour.toggleClass('navigation__link--overlay');
 
-    setTimeout(function(){ 
-      navigationLinkOne.toggleClass('navigation__link--overlay');
-    }, 200 );
+    // setTimeout(function(){ 
+    //   navigationLinkOne.toggleClass('navigation__link--overlay');
+    // }, 200 );
 
-    setTimeout(function(){ 
-      navigationLinkTwo.toggleClass('navigation__link--overlay');
-    }, 250 );
+    // setTimeout(function(){ 
+    //   navigationLinkTwo.toggleClass('navigation__link--overlay');
+    // }, 250 );
 
-    setTimeout(function(){ 
-      navigationLinkThree.toggleClass('navigation__link--overlay');
-    }, 300 );
+    // setTimeout(function(){ 
+    //   navigationLinkThree.toggleClass('navigation__link--overlay');
+    // }, 300 );
 
-    setTimeout(function(){ 
-      navigationLinkFour.toggleClass('navigation__link--overlay');
-    }, 350 );
+    // setTimeout(function(){ 
+    //   navigationLinkFour.toggleClass('navigation__link--overlay');
+    // }, 350 );
 
 
 

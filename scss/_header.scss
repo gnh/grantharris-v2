@@ -84,7 +84,7 @@ header {
 	padding-top: 20vh;
 
 	.navigation__link {
-		@include transition(.25s);
+		@include transition(.35s);
 		opacity: 0;
 		list-style: none;
 		pointer-events: none;

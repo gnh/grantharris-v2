@@ -422,11 +422,11 @@ header {
   height: 100vh;
   padding-top: 20vh; }
   .navigation .navigation__link {
-    -webkit-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -moz-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -ms-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -o-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
-    transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+    transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
     opacity: 0;
     list-style: none;
     pointer-events: none;
