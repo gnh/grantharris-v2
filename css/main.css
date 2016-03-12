@@ -205,11 +205,11 @@ hr {
   margin: 3rem auto; }
 
 .kanye {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
   margin: 0;
   padding: 0;
   position: relative;
@@ -249,11 +249,11 @@ a {
   color: #fff; }
 
 h1 {
-  -webkit-transition: all 0.15s ease-in-out;
-  -moz-transition: all 0.15s ease-in-out;
-  -ms-transition: all 0.15s ease-in-out;
-  -o-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+  transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
   font-size: 1.8rem;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -284,11 +284,11 @@ h2 {
   .content:last-of-type {
     margin-bottom: 0; }
   .content a {
-    -webkit-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+    transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
     letter-spacing: inherit;
     text-transform: none;
     color: #9798AF;
@@ -302,21 +302,21 @@ h2 {
   opacity: 1 !important; }
 
 #other {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -ms-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -o-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1); }
 
 .hide {
   opacity: .11 !important; }
 
 #overlay {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -ms-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -o-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
   z-index: 999;
   position: fixed;
   top: 0;
@@ -349,7 +349,7 @@ header {
   align-items: center;
   width: 100%;
   height: 60vh;
-  background-color: rgba(44, 46, 54, 0.9);
+  background-color: rgba(44, 46, 54, 0.95);
   z-index: 999; }
 
 .connect {
@@ -362,11 +362,11 @@ header {
     float: left;
     margin-right: 3rem; }
     .connect .connect__link a {
-      -webkit-transition: all 0.15s ease-in-out;
-      -moz-transition: all 0.15s ease-in-out;
-      -ms-transition: all 0.15s ease-in-out;
-      -o-transition: all 0.15s ease-in-out;
-      transition: all 0.15s ease-in-out;
+      -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+      -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+      -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+      -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+      transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
       font-size: 1rem;
       color: rgba(255, 255, 255, 0.3); }
     .connect .connect__link .connect__link--dribbble:hover {
@@ -382,11 +382,11 @@ header {
   height: 100vh !important; }
 
 .menu__link {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
   display: block;
   position: absolute;
   top: 0;
@@ -395,11 +395,11 @@ header {
   transform: rotate(90deg); }
 
 .identity {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out; }
+  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1); }
 
 .identity--overlay {
   opacity: 0 !important; }
@@ -410,12 +410,29 @@ header {
 .navigation {
   margin: 0;
   padding: 0;
-  display: none; }
+  position: fixed;
+  top: 10rem;
+  left: 10rem;
+  z-index: 1000;
+  animation-delay: .5s;
+  pointer-events: none; }
+  .navigation .navigation__link {
+    -webkit-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -moz-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -ms-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -o-transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
+    transition: all 0.25s cubic-bezier(0.15, 0.55, 0.9, 1);
+    opacity: 0;
+    list-style: none;
+    pointer-events: none; }
+    .navigation .navigation__link a {
+      font-size: 3.2rem;
+      font-weight: 400;
+      letter-spacing: 1rem; }
+  .navigation .navigation__link--overlay {
+    opacity: 1;
+    padding-top: 5rem;
+    pointer-events: auto; }
 
-.navigation__link {
-  list-style: none;
-  margin-bottom: 5rem; }
-  .navigation__link a {
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3rem; }
+.navigation--overlay {
+  pointer-events: auto; }

@@ -17,6 +17,14 @@ $(document).ready(function(){
 
     var identity = $('.identity');
 
+    var navigation = $('.navigatino');
+    var navigationLink = $('.navigation__link');
+
+    var navigationLinkOne = $('.navigation__link--1');
+    var navigationLinkTwo = $('.navigation__link--2');
+    var navigationLinkThree = $('.navigation__link--3');
+    var navigationLinkFour = $('.navigation__link--4');
+
     // scroll params
     var scrollTop = $(window).scrollTop();
     var windowHeight = $(window).height();
@@ -33,9 +41,27 @@ $(document).ready(function(){
 
 
 
-
     menuLink.toggleClass('menu__link--overlay');
     identity.toggleClass('identity--overlay');
+    navigation.toggleClass('navigation--overlay');
+
+    setTimeout(function() { 
+      navigationLinkOne.delay(550).toggleClass('navigation__link--overlay');
+    }, 200 )
+
+    setTimeout(function() { 
+      navigationLinkTwo.delay(550).toggleClass('navigation__link--overlay');
+    }, 250 )
+
+    setTimeout(function() { 
+      navigationLinkThree.delay(550).toggleClass('navigation__link--overlay');
+    }, 300 )
+
+    setTimeout(function() { 
+      navigationLinkFour.delay(550).toggleClass('navigation__link--overlay');
+    }, 350 )
+
+
 
     if (f){
       header.animate({height: "100vh"}, 350, function(){
