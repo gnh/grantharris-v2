@@ -36,30 +36,25 @@ $(document).ready(function(){
     var f = !$(this).data("toggleFlag");
 
 
-
-
-
-
-
     menuLink.toggleClass('menu__link--overlay');
     identity.toggleClass('identity--overlay');
     navigation.toggleClass('navigation--overlay');
 
-    setTimeout(function() { 
-      navigationLinkOne.delay(550).toggleClass('navigation__link--overlay');
-    }, 200 )
+    setTimeout(function(){ 
+      navigationLinkOne.toggleClass('navigation__link--overlay');
+    }, 200 );
 
-    setTimeout(function() { 
-      navigationLinkTwo.delay(550).toggleClass('navigation__link--overlay');
-    }, 250 )
+    setTimeout(function(){ 
+      navigationLinkTwo.toggleClass('navigation__link--overlay');
+    }, 250 );
 
-    setTimeout(function() { 
-      navigationLinkThree.delay(550).toggleClass('navigation__link--overlay');
-    }, 300 )
+    setTimeout(function(){ 
+      navigationLinkThree.toggleClass('navigation__link--overlay');
+    }, 300 );
 
-    setTimeout(function() { 
-      navigationLinkFour.delay(550).toggleClass('navigation__link--overlay');
-    }, 350 )
+    setTimeout(function(){ 
+      navigationLinkFour.toggleClass('navigation__link--overlay');
+    }, 350 );
 
 
 
