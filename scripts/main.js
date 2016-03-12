@@ -14,6 +14,15 @@ $(document).ready(function(){
 
   menuLink.click(function(){
 
+
+    // scroll params
+    var scrollTop = $(window).scrollTop();
+    var windowHeight = $(window).height();
+
+    var desiredWindowHeight = windowHeight * .6;  //since we use a height of 60vh, we take 60% of windowHeight for proper "push" animation
+    var slideProgress = desiredWindowHeight - scrollTop;
+
+    // toggle param
     var f = !$(this).data("toggleFlag");
 
     if (f){
@@ -25,8 +34,13 @@ $(document).ready(function(){
       });
     });
 
-    } else {
-      header.unbind();
+    } else if(slideProgress < 100){
+
+      header.animate({height: '100px'});
+      body.unbind('touchmove scroll mousewheel');
+    } else if(slideProgress >= 100){
+
+      header.animate({height: slideProgress});
       body.unbind('touchmove scroll mousewheel');
     }
 
@@ -34,7 +48,6 @@ $(document).ready(function(){
 
   });
 });
-
 
 // Disable arrow key scrolling
 $(document).keydown(function(e){
@@ -66,11 +79,7 @@ $(document).keydown(function(e){
 });
 
 
-
-
-
-
-
+// scroll stuff
 $(window).scroll(function(){
 
   var scrollTop = $(window).scrollTop();
