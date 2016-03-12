@@ -11,53 +11,60 @@ header {
 		display: flex;
 		justify-content: space-between;
 	}
+}
 
-	.menu {
-		position: relative;
-		// overflow: auto;
-		cursor: pointer;
+.connect {
+	@include pm-clear;
+	position: absolute;
+	top: 5rem;
+	
+	.connect__link {
+		list-style: none;
+		float: left;
+		margin-right: 3rem;
 
-		.menu__top, .menu__middle, .menu__bottom {
-			@include transition(.35s);
-			transform-origin: left;
-			position: absolute;
-			top: 0;
-			left: 0;
-			display: block;
-			width: 2.3rem;
-			height: 2px;
-			background-color: $white;
+		a {
+			@include transition(0.15s);
+			font-size: 1rem;
+			color: rgba(255,255,255,0.3);
 		}
 
-		.menu__middle {
-			top: 7px;
+		.connect__link--dribbble:hover {
+			background: $dribbble;
 		}
 
-		.menu__bottom {
-			top: 14px;
+		.connect__link--twitter:hover {
+			background: $twitter;
 		}
-	}
 
-	.connect {
-		@include pm-clear;
-		position: absolute;
-		top: 5rem;
-		
-		.connect__link {
-			list-style: none;
-			float: left;
-			margin-right: 3rem;
+		.connect__link--instagram:hover {
+			background: $instagram;
+		}
 
-			a {
-				@include transition(0.15s);
-				font-size: 1rem;
-				color: rgba(255,255,255,0.3);
-
-				&:hover {
-					background: rgba(116,167,255,0.2);
-				}
-			}
+		.connect__link--mail:hover {
+			background: $blue-trans;
 		}
 	}
 }
+
+.header--100vh {
+	height: 100vh !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

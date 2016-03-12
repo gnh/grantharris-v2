@@ -217,7 +217,7 @@ img {
   margin: 0 auto 5rem auto;
   width: 50%; }
 
-#about {
+.about {
   padding-top: 70vh;
   padding-bottom: 10vh; }
 
@@ -348,43 +348,32 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between; }
-  header .menu {
-    position: relative;
-    cursor: pointer; }
-    header .menu .menu__top, header .menu .menu__middle, header .menu .menu__bottom {
-      -webkit-transition: all 0.35s ease-in-out;
-      -moz-transition: all 0.35s ease-in-out;
-      -ms-transition: all 0.35s ease-in-out;
-      -o-transition: all 0.35s ease-in-out;
-      transition: all 0.35s ease-in-out;
-      transform-origin: left;
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
-      width: 2.3rem;
-      height: 2px;
-      background-color: #fff; }
-    header .menu .menu__middle {
-      top: 7px; }
-    header .menu .menu__bottom {
-      top: 14px; }
-  header .connect {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 5rem; }
-    header .connect .connect__link {
-      list-style: none;
-      float: left;
-      margin-right: 3rem; }
-      header .connect .connect__link a {
-        -webkit-transition: all 0.15s ease-in-out;
-        -moz-transition: all 0.15s ease-in-out;
-        -ms-transition: all 0.15s ease-in-out;
-        -o-transition: all 0.15s ease-in-out;
-        transition: all 0.15s ease-in-out;
-        font-size: 1rem;
-        color: rgba(255, 255, 255, 0.3); }
-        header .connect .connect__link a:hover {
-          background: rgba(116, 167, 255, 0.2); }
+
+.connect {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5rem; }
+  .connect .connect__link {
+    list-style: none;
+    float: left;
+    margin-right: 3rem; }
+    .connect .connect__link a {
+      -webkit-transition: all 0.15s ease-in-out;
+      -moz-transition: all 0.15s ease-in-out;
+      -ms-transition: all 0.15s ease-in-out;
+      -o-transition: all 0.15s ease-in-out;
+      transition: all 0.15s ease-in-out;
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.3); }
+    .connect .connect__link .connect__link--dribbble:hover {
+      background: rgba(234, 76, 137, 0.3); }
+    .connect .connect__link .connect__link--twitter:hover {
+      background: rgba(75, 172, 238, 0.3); }
+    .connect .connect__link .connect__link--instagram:hover {
+      background: rgba(63, 114, 155, 0.3); }
+    .connect .connect__link .connect__link--mail:hover {
+      background: rgba(116, 167, 255, 0.3); }
+
+.header--100vh {
+  height: 100vh !important; }

@@ -12,38 +12,30 @@
   </head>
   <body>
 
-<!--     <div id="overlay">
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Work</a></li>
-        <li><a href="">Experience</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </div> -->
-
-    <div id="other">
+    <div class="site-wrap">
       <header>
         <div class="kanye">
           
-          <div>
-          <h1>Grant Harris <span class="textFade">Designer, Entrepreneur, Maker, Solver, Thinker, Hacker</span></h1>
-          <ul class="connect">
-            <li class="connect__link" target="_blank"><a href="">Twitter</a></li>
-            <li class="connect__link" target="_blank"><a href="">Instagram</a></li>
-            <li class="connect__link" target="_blank"><a href="">Contact</a></li>
-          </ul>
+          <div> <!-- flexbox grouping -->
+            <h1>Grant Harris <span class="textFade">Designer, Entrepreneur, Maker, Solver, Thinker, Hacker</span></h1>
+            <ul class="connect">
+              <li class="connect__link" target="_blank"><a class="connect__link--dribbble"href="">Dribbble</a></li>
+              <li class="connect__link" target="_blank"><a class="connect__link--twitter"href="">Twitter</a></li>
+              <li class="connect__link" target="_blank"><a class="connect__link--instagram"href="">Instagram</a></li>
+              <li class="connect__link" target="_blank"><a class="connect__link--mail"href="">Contact</a></li>
+            </ul>
           </div>
-
-          <div class="menu">
-            <div class="menu__top"></div>
-            <div class="menu__middle"></div>
-            <div class="menu__bottom"></div>
+          
+          <div> <!-- flexbox grouping -->
+            <svg class="menu__link" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+              <polygon fill="#FFFFFF" points="200,0 165,35 305,175 0,175 0,225 305,225 165,365 200,400 400,200  "/>
+            </svg>
           </div>
 
         </div>
       </header>
 
-      <section id="about">
+      <main class="about">
         <div class="kanye">
 
           <img src="images/grant.jpg" alt="">
@@ -58,11 +50,10 @@
           <p class="content">He joined Intel as a <a href="#">part of the exiting team at PasswordBox</a>, a startup which was founded in 2012.  <a href="#">PasswordBox</a> was acquired by Intel in 2014.  At PasswordBox, he contributed as a Product Designer, helping users manage their online credentials and identities.</p>
 
         </div>
-      </section>
+      </main>
 
-      <footer>
+      <footer class="footer">
         <div class="kanye">
-          <p class="work-together">Let's work together</p>
         </div>
       </footer>
     </div>
