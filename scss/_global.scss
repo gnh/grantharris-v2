@@ -35,11 +35,19 @@ hr {
 }
 
 img {
+	@include transition(.35s);
 	border-radius: 4px;
 	display: block;
 	margin: 0 auto 5rem auto;
 	width: 50%;
-	// opacity: .8;
+	opacity: .8;
+	box-shadow: -10px 10px 30px 0 rgba(0,0,0,0.2);
+
+	&:hover {
+		// width: 52%;
+		opacity: 1;
+		box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);
+	}
 }
 
 
