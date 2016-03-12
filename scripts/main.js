@@ -11,9 +11,11 @@ $(document).ready(function(){
   var menuLink = $('.menu__link');
   var header = $('header');
   var body = $('html');
+  var wrapper = $('.kanye__header');
 
   menuLink.click(function(){
 
+    var identity = $('.identity');
 
     // scroll params
     var scrollTop = $(window).scrollTop();
@@ -25,21 +27,32 @@ $(document).ready(function(){
     // toggle param
     var f = !$(this).data("toggleFlag");
 
+
+
+
+
+
+
+
+    menuLink.toggleClass('menu__link--overlay');
+    identity.toggleClass('identity--overlay');
+
     if (f){
       header.animate({height: "100vh"}, 350, function(){
-      body.bind('touchmove scroll mousewheel', function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
+        body.bind('touchmove scroll mousewheel', function(e){
+          e.preventDefault();
+          e.stopPropagation();
+          return false;
+        });
       });
-    });
+    } 
 
-    } else if(slideProgress < 100){
-
+    else if(slideProgress < 100){
       header.animate({height: '100px'});
       body.unbind('touchmove scroll mousewheel');
-    } else if(slideProgress >= 100){
+    } 
 
+    else if(slideProgress >= 100){
       header.animate({height: slideProgress});
       body.unbind('touchmove scroll mousewheel');
     }
@@ -47,6 +60,7 @@ $(document).ready(function(){
     $(this).data("toggleFlag", f);
 
   });
+
 });
 
 // Disable arrow key scrolling
