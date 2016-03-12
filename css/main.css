@@ -227,6 +227,47 @@ img {
   padding-top: 70vh;
   padding-bottom: 10vh; }
 
+.experience {
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  position: relative;
+  background-color: rgba(44, 46, 54, 0.9);
+  border-radius: 4px;
+  margin-bottom: 5rem;
+  padding: 5rem; }
+  .experience .experience__tab {
+    align-items: center;
+    min-width: 35%; }
+  .experience .experience__company {
+    font-size: 3.8rem;
+    color: #fff;
+    font-weight: 600; }
+  .experience .experience__title {
+    font-weight: 400;
+    color: #74A7FF;
+    margin-bottom: 2rem; }
+  .experience .experience__title--beamery {
+    color: #50E3C2; }
+  .experience .experience__title--nebula {
+    color: #74a7ff; }
+  .experience .experience__title--intel {
+    color: #0071c5; }
+  .experience .experience__title--passwordbox {
+    color: #96c142; }
+  .experience .experience__date {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    opacity: 0.3; }
+  .experience .experience__description {
+    font-size: 1.6rem;
+    color: #fff;
+    opacity: .5;
+    letter-spacing: 1px; }
+
 footer {
   padding-top: 15em;
   padding-bottom: 15em;
@@ -266,7 +307,8 @@ h1 {
 h2 {
   font-size: 2.4rem;
   font-weight: 400;
-  letter-spacing: 10px;
+  letter-spacing: 1rem;
+  padding-left: 1rem;
   text-transform: uppercase;
   color: #fff;
   text-align: center; }

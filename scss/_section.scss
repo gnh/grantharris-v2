@@ -2,3 +2,70 @@
 	padding-top: 70vh;
 	padding-bottom: 10vh;
 }
+
+.experience {
+	display: flex;
+	justify-items: space-between;
+	align-items: center;
+	position: relative;
+	background-color: $shade-dark;
+	border-radius: 4px;
+	margin-bottom: 5rem;
+	padding: 5rem;
+
+	.experience__tab {
+		align-items: center;
+		min-width: 35%;
+	}
+
+	.experience__company {
+		font-size: 3.8rem;
+		color: $white;
+		font-weight: 600;
+	}
+
+	.experience__title {
+		font-weight: 400;
+		color: $blue;
+		margin-bottom: 2rem;
+	}
+
+	.experience__title--beamery {
+		color: $beamery;
+	}
+
+	.experience__title--nebula {
+		color: $nebula;
+	}
+
+	.experience__title--intel {
+		color: $intel;
+	}
+
+	.experience__title--passwordbox {
+		color: $passwordbox;
+	}
+
+	.experience__date {
+		font-size: 1rem;
+		font-weight: 400;
+		color: $white;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		opacity: 0.3;
+	}
+
+	.experience__description {
+		// font-family: "kepler-std-semicondensed";
+		font-size: 1.6rem;
+		// font-weight: 100;
+		// color: $copy;
+		color: $white;
+		opacity: .5;
+		// max-width: 60rem;	
+		letter-spacing: 1px;
+		// line-height: 3.8rem;
+		// margin: 0 auto;
+	}
+
+}
