@@ -221,32 +221,6 @@ img {
   padding-top: 70vh;
   padding-bottom: 10vh; }
 
-.content {
-  font-family: "kepler-std-semicondensed";
-  margin: 0 auto;
-  width: 60rem;
-  font-size: 2.4rem;
-  font-weight: 100;
-  letter-spacing: 1px;
-  line-height: 3.8rem;
-  text-align: center;
-  margin-bottom: 5rem; }
-  .content:last-of-type {
-    margin-bottom: 0; }
-  .content a {
-    -webkit-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-    letter-spacing: inherit;
-    text-transform: none;
-    color: #9798AF;
-    font-size: inherit;
-    background-color: #2b2c34; }
-    .content a:hover {
-      background: rgba(116, 167, 255, 0.2); }
-
 footer {
   padding-top: 15em;
   padding-bottom: 15em;
@@ -290,6 +264,32 @@ h2 {
   text-transform: uppercase;
   color: #fff;
   text-align: center; }
+
+.content {
+  font-family: "kepler-std-semicondensed";
+  margin: 0 auto;
+  max-width: 60rem;
+  font-size: 2.4rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 3.8rem;
+  text-align: center;
+  margin-bottom: 5rem; }
+  .content:last-of-type {
+    margin-bottom: 0; }
+  .content a {
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    letter-spacing: inherit;
+    text-transform: none;
+    color: #9798AF;
+    font-size: inherit;
+    background-color: #2b2c34; }
+    .content a:hover {
+      background: rgba(116, 167, 255, 0.2); }
 
 .nav-on {
   pointer-events: auto !important;
@@ -348,12 +348,10 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between; }
-  header #burger {
+  header .menu {
     position: relative;
-    width: 1.8rem;
-    height: 1.8rem;
     cursor: pointer; }
-    header #burger .top, header #burger .middle, header #burger .bottom {
+    header .menu .menu__top, header .menu .menu__middle, header .menu .menu__bottom {
       -webkit-transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;
       -ms-transition: all 0.35s ease-in-out;
@@ -367,20 +365,20 @@ header {
       width: 2.3rem;
       height: 2px;
       background-color: #fff; }
-    header #burger .middle {
-      top: 8px; }
-    header #burger .bottom {
-      top: 16px; }
-  header #social {
+    header .menu .menu__middle {
+      top: 7px; }
+    header .menu .menu__bottom {
+      top: 14px; }
+  header .connect {
     margin: 0;
     padding: 0;
     position: absolute;
     top: 5rem; }
-    header #social li {
+    header .connect .connect__link {
       list-style: none;
       float: left;
       margin-right: 3rem; }
-      header #social li a {
+      header .connect .connect__link a {
         -webkit-transition: all 0.15s ease-in-out;
         -moz-transition: all 0.15s ease-in-out;
         -ms-transition: all 0.15s ease-in-out;
@@ -388,5 +386,5 @@ header {
         transition: all 0.15s ease-in-out;
         font-size: 1rem;
         color: rgba(255, 255, 255, 0.3); }
-        header #social li a:hover {
+        header .connect .connect__link a:hover {
           background: rgba(116, 167, 255, 0.2); }

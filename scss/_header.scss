@@ -12,13 +12,12 @@ header {
 		justify-content: space-between;
 	}
 
-	#burger {
+	.menu {
 		position: relative;
-		width: 1.8rem;
-		height: 1.8rem;
+		// overflow: auto;
 		cursor: pointer;
 
-		.top, .middle, .bottom {
+		.menu__top, .menu__middle, .menu__bottom {
 			@include transition(.35s);
 			transform-origin: left;
 			position: absolute;
@@ -30,21 +29,21 @@ header {
 			background-color: $white;
 		}
 
-		.middle {
-			top: 8px;
+		.menu__middle {
+			top: 7px;
 		}
 
-		.bottom {
-			top: 16px;
+		.menu__bottom {
+			top: 14px;
 		}
 	}
 
-	#social {
+	.connect {
 		@include pm-clear;
 		position: absolute;
 		top: 5rem;
 		
-		li {
+		.connect__link {
 			list-style: none;
 			float: left;
 			margin-right: 3rem;

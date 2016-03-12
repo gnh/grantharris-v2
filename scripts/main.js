@@ -7,20 +7,17 @@ $(document).ready(function(){
 	  speed: 5000
 	});
 
-	// content shitty fade in ------------ prelim "WIP"
-	// $('body').fadeIn(1000);
-
 	// need to optimize this - fade in nav overlay / fade out content behind
-	$("#burger").click(function(){
-		$('#overlay').addClass('nav-on');
-		$('#other').addClass('hide');
-	});
+	// $("#burger").click(function(){
+	// 	$('#overlay').addClass('nav-on');
+	// 	$('#other').addClass('hide');
+	// });
 
 	// need to optimize this - fade out nav on out click / fade in content behind
-	$("#overlay").click(function(){
-		$('#overlay').removeClass('nav-on');
-		$('#other').removeClass('hide');
-	});
+	// $("#overlay").click(function(){
+	// 	$('#overlay').removeClass('nav-on');
+	// 	$('#other').removeClass('hide');
+	// });
 
 });
 
@@ -61,9 +58,9 @@ $(window).scroll(function(){
   	$('#social').show(); // re-enter dom
   }
 
-  $('#social').css('opacity', fadeProgress);
+  $('.connect').css('opacity', fadeProgress);
 
-  $('#social').css('transform', 'translateY(' +  0.1 * moveProgress + 'px)');
+  $('.connect').css('transform', 'translateY(' +  0.1 * moveProgress + 'px)');
 
   console.log('slideProgress');
 
