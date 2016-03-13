@@ -205,11 +205,11 @@ hr {
   margin: 3rem auto; }
 
 .kanye {
-  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
   margin: 0;
   padding: 0;
   position: relative;
@@ -218,11 +218,11 @@ hr {
   margin: 0 auto; }
 
 img {
-  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
   border-radius: 4px;
   display: block;
   margin: 0 auto 5rem auto;
@@ -238,11 +238,11 @@ img {
   padding-bottom: 10vh; }
 
 .experience {
-  -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -ms-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
   display: block;
   position: relative;
   background-color: rgba(44, 46, 54, 0.9);
@@ -306,10 +306,41 @@ img {
   margin-bottom: 2rem; }
 
 footer {
-  padding-top: 15em;
-  padding-bottom: 15em;
+  position: relative;
+  padding: 10rem 0;
   background-color: rgba(44, 46, 54, 0.9);
-  box-shadow: 0 -10px 30px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 -10px 30px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
+  footer .footer__cta {
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -ms-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+    opacity: .5; }
+    footer .footer__cta span {
+      font-weight: 600; }
+  footer .footer__copyright {
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -ms-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 6px;
+    text-transform: uppercase; }
+  footer:hover .footer__cta {
+    padding-left: 3rem;
+    opacity: 1; }
+  footer:hover .footer__copyright {
+    padding-left: 1rem; }
 
 p, a, h1, h2, h3, h4, h5 {
   margin: 0;
@@ -328,11 +359,11 @@ a {
   color: #fff; }
 
 h1 {
-  -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -ms-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
   font-size: 1.8rem;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -363,11 +394,11 @@ h2 {
   .content:last-of-type {
     margin-bottom: 0; }
   .content a {
-    -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-    transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
     letter-spacing: inherit;
     text-transform: none;
     color: #9798AF;
@@ -381,21 +412,21 @@ h2 {
   opacity: 1 !important; }
 
 #other {
-  -webkit-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1); }
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
 
 .hide {
   opacity: .11 !important; }
 
 #overlay {
-  -webkit-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.5s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   z-index: 999;
   position: fixed;
   top: 0;
@@ -442,11 +473,11 @@ header {
     float: left;
     margin-right: 3rem; }
     .connect .connect__link a {
-      -webkit-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-      -moz-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-      -ms-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-      -o-transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
-      transition: all 0.15s cubic-bezier(0.15, 0.55, 0.9, 1);
+      -webkit-transition: all 0.15s ease-out;
+      -moz-transition: all 0.15s ease-out;
+      -ms-transition: all 0.15s ease-out;
+      -o-transition: all 0.15s ease-out;
+      transition: all 0.15s ease-out;
       font-size: 1rem;
       color: rgba(255, 255, 255, 0.3); }
     .connect .connect__link .connect__link--dribbble:hover {
@@ -462,11 +493,11 @@ header {
   height: 100vh !important; }
 
 .menu__link {
-  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
   display: block;
   position: absolute;
   top: 0;
@@ -476,11 +507,11 @@ header {
   z-index: 1001; }
 
 .identity {
-  -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-  transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1); }
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out; }
 
 .identity--overlay {
   opacity: 0 !important; }
@@ -502,11 +533,11 @@ header {
   height: 100vh;
   padding-top: 20vh; }
   .navigation .navigation__link {
-    -webkit-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -moz-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -ms-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-    -o-transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
-    transition: all 0.35s cubic-bezier(0.15, 0.55, 0.9, 1);
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -ms-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
     opacity: 0;
     list-style: none;
     pointer-events: none;

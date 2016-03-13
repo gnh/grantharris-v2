@@ -1,11 +1,18 @@
 $(document).ready(function(){
 
-	// text cycle animation
-	$(".textFade").textrotator({
-	  animation: "dissolve",
-	  separator: ",",
-	  speed: 5000
-	});
+  // text cycle animation
+  $(".textFade").textrotator({
+    animation: "dissolve",
+    separator: ",",
+    speed: 5000
+  });
+
+  // text cycle animation
+  $(".textFadeFooter").textrotator({
+    animation: "dissolveFooter",
+    separator: ",",
+    speed: 5000
+  });
 
 
   var menuLink = $('.menu__link');

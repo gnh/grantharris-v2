@@ -44,6 +44,17 @@
               }, 400 );
             });
           break;
+          case 'dissolveFooter':
+            el.animate({
+              opacity: 0
+            }, 400 , function() {
+              index = $.inArray(el.text(), array)
+              if((index + 1) == array.length) index = -1
+              el.text(array[index + 1]).animate({
+                opacity: 1
+              }, 400 );
+            });
+          break;
           
           case 'flip':
             if(el.find(".back").length > 0) {
