@@ -233,9 +233,10 @@ img {
     opacity: 1;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3); }
 
-.about {
+main {
   padding-top: 70vh;
-  padding-bottom: 10vh; }
+  padding-bottom: 10vh;
+  overflow: auto; }
 
 .experience {
   -webkit-transition: all 0.15s ease-out;
@@ -304,6 +305,45 @@ img {
 
 .experience--passwordbox .experience__date {
   margin-bottom: 2rem; }
+
+.portfolio__card {
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  -ms-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  float: left;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 15rem 0;
+  margin-bottom: 5rem;
+  opacity: 0.9;
+  cursor: pointer; }
+  .portfolio__card:hover {
+    opacity: 1;
+    box-shadow: -10px 10px 30px 0 rgba(0, 0, 0, 0.2); }
+
+.portfolio__card--test1 {
+  background-color: #0071c5; }
+
+.portfolio__card--test2 {
+  width: 40%;
+  background-color: #96c142;
+  margin-right: 5%; }
+
+.portfolio__card--test3 {
+  width: 55%;
+  background-color: #74A7FF; }
+
+.portfolio__card--test4 {
+  width: 60%;
+  background-color: rgba(234, 76, 137, 0.3);
+  margin-right: 5%; }
+
+.portfolio__card--test5 {
+  width: 35%;
+  background-color: rgba(63, 114, 155, 0.3); }
 
 footer {
   position: relative;
