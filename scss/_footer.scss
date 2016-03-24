@@ -3,7 +3,7 @@ footer {
 	position: relative;
 	padding: 10rem 0;
 	background-color: $shade-dark;
-	box-shadow: 0 -10px 30px 0 rgba(0,0,0,0.1);
+	// box-shadow: 0 -10px 30px 0 rgba(0,0,0,0.1);
 	cursor: pointer;
 
 	.footer__cta {
@@ -36,13 +36,13 @@ footer {
 	}
 
 	&:hover .footer__cta {
-		padding-left: 3rem;
+		// padding-left: 3rem;
 		opacity: 1;
 		// box-shadow: 0 -10px 30px 0 rgba(0,0,0,0.1);
 	}
 
 	&:hover .footer__copyright {
-		padding-left: 1rem;
+		// padding-left: 1rem;
 		// box-shadow: 0 -10px 30px 0 rgba(0,0,0,0.1);
 	}
 }

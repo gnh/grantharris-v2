@@ -8,11 +8,11 @@ $(document).ready(function(){
   });
 
   // text cycle animation
-  $(".textFadeFooter").textrotator({
-    animation: "dissolveFooter",
-    separator: ",",
-    speed: 5000
-  });
+  // $(".textFadeFooter").textrotator({
+  //   animation: "dissolveFooter",
+  //   separator: ",",
+  //   speed: 5000
+  // });
 
 
   var menuLink = $('.menu__link');

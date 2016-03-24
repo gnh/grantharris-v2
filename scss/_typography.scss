@@ -45,15 +45,15 @@ h2 {
 // paragraph
 
 .content {
-	// font-family: "kepler-std-semicondensed";
+	font-family: "kepler-std-semicondensed";
 	margin: 0 auto;
-	max-width: 60rem;	
-	font-size: 1.6rem;
-	font-weight: 400;
+	max-width: 75rem;	
+	font-size: 3.2rem;
+	font-weight: 100;
 	letter-spacing: 1px;
-	line-height: 2.6rem;
+	line-height: 4.8rem;
 	text-align: center;
-	margin-bottom: 5rem;
+	margin-bottom: 8rem;
 
 	&:last-of-type {
 		margin-bottom: 0;
